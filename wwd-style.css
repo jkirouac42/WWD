@@ -1236,7 +1236,12 @@ li.left-footer-content.mobile
     }
 }
 
-@media screen and (max-width: 975px) { 
+@media screen and (max-width: 975px) {
+    
+    #slide{
+        text-align: center;
+        padding-top: 50px;
+    }
 
     .blog-item-holder .one_half_title, .blog-item-holder .one_half_thumb, .blog-item-holder .one_third_title, .blog-item-holder .one_third_thumb, .blog-item-holder .two_third_title, .blog-item-holder .two_third_thumb
     {
