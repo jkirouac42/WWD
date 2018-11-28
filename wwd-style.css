@@ -39,6 +39,7 @@ body a:hover
 #slide{
     text-align: right;
     padding-top: 175px;
+    color:#ffff;
 }
 
 #motto{
@@ -1241,6 +1242,7 @@ li.left-footer-content.mobile
     #slide{
         text-align: center;
         padding-top: 50px;
+        color:black;
     }
 
     .blog-item-holder .one_half_title, .blog-item-holder .one_half_thumb, .blog-item-holder .one_third_title, .blog-item-holder .one_third_thumb, .blog-item-holder .two_third_title, .blog-item-holder .two_third_thumb
