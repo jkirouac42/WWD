@@ -665,7 +665,9 @@ body.blog .more-posts
 
 /* END SINGLE POST */
 
-
+a:hover{
+    color:hsla(36, 6%, 65%, 0.5);
+}
 
 /* GENERAL PAGE */
 
@@ -702,6 +704,15 @@ body.blog .more-posts
 }
 
 /* END GENERAL PAGE */
+
+
+/*custom for wwd*/
+
+a:hover{
+    color:gray;
+}
+
+
 
 
 /* ABOUT */
@@ -744,8 +755,8 @@ body.blog .more-posts
     top: 0;
     left: 0;
     text-align: center;
-    background-color: #51504c;    
-    color: #cdc8c1;
+    background-color: hsla(36, 6%, 65%, .5);    
+    color: white;
 }
 
 .team-holder .member-name
@@ -753,6 +764,7 @@ body.blog .more-posts
     margin-top: 25%;
     margin-bottom: 25px;
     font-weight: 700;
+    opacity: 1;
 }
 
 .team-holder .member-social-holder
