@@ -93,17 +93,6 @@ a {
     text-align: center;
 }
 
-.arrow-align {
-    align-content: center;
-    color: aliceblue;
-}
-
-.arrow-pad {
-    height: 4%;
-    width: 4%;
-    padding: 3px;
-}
-
 .social-media {
     padding: 5px;
 }
