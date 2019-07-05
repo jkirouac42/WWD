@@ -42,7 +42,7 @@ a {
     left: 15px;
     right: 0;
     height: 100%;
-    width: 93%;
+    width: 92%;
     opacity: 0;
     transition: .5s ease;
     background-color: hsla(60, 3%, 65%, .75);
