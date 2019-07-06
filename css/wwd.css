@@ -8,6 +8,10 @@ a {
     color: black;
 }
 
+.card-color {
+    background-color: hsla(60, 3%, 85%, 1);
+}
+
 .nav-col {
     background-color: hsla(60, 3%, 22%, 1);
 }
@@ -48,8 +52,8 @@ a {
     background-color: hsla(60, 3%, 65%, .75);
     border-top-left-radius: calc(.25rem - 1px);
     border-top-right-radius: calc(.25rem - 1px);
-    border-bottom-right-radius: calc(0.25rem - 1px);
-    border-bottom-left-radius: calc(0.25rem - 1px);
+    border-bottom-right-radius: calc(.25rem - 1px);
+    border-bottom-left-radius: calc(.25rem - 1px);
 }
 
 .overlay-2 {
@@ -65,8 +69,8 @@ a {
     background-color: hsla(60, 3%, 65%, .75);
     border-top-left-radius: calc(.25rem - 1px);
     border-top-right-radius: calc(.25rem - 1px);
-    border-bottom-right-radius: calc(0.25rem - 1px);
-    border-bottom-left-radius: calc(0.25rem - 1px);
+    border-bottom-right-radius: calc(.25rem - 1px);
+    border-bottom-left-radius: calc(.25rem - 1px);
 }
 
 .folio-overlay:hover .overlay {
@@ -140,7 +144,7 @@ a {
         background-color: hsla(60, 3%, 75%, .5);
         border-top-left-radius: calc(.25rem - 1px);
         border-top-right-radius: calc(.25rem - 1px);
-        border-bottom-right-radius: calc(0.25rem - 1px);
-        border-bottom-left-radius: calc(0.25rem - 1px);
+        border-bottom-right-radius: calc(.25rem - 1px);
+        border-bottom-left-radius: calc(.25rem - 1px);
     }
 }

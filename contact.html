@@ -61,52 +61,75 @@
 
     <br>
 
-    <!-- Page Content -->
     <div class="container">
-        <br>
-        <br>
-        <!-- Page Heading/Breadcrumbs -->
-        <center>
-            <h1 class="mt-4 mb-3 text-color">Packer Kitchen<br>
-            </h1>
-        </center>
-        <br>
 
 
-        <div class="row gallery">
-            <div class="col-lg-4 col-sm-6 portfolio-item folio-overlay">
-                <div>
-                    <a href="#" data-lightbox="packer-gallery"><img class="card-img-top" src="css/images/residential/Packer/Packer - 1.jpg" alt="stringer-1"></a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 portfolio-item">
-                <div>
-                    <a href="#" data-lightbox="packer-gallery"><img class="card-img-top" src="css/images/residential/Packer/Packer - 2.jpg" alt="stringer-2"></a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 portfolio-item">
-                <div>
-                    <a href="#" data-lightbox="packer-gallery"><img class="card-img-top" src="css/images/residential/Packer/Packer - 3.jpg" alt="stringer-3"></a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 portfolio-item">
-                <div>
-                    <a href="#" data-lightbox="packer-gallery"><img class="card-img-top" src="css/images/residential/Packer/Packer - 4.jpg" alt="stringer-4"></a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 portfolio-item">
-                <div>
-                    <a href="#" data-lightbox="packer-gallery"><img class="card-img-top" src="css/images/residential/Packer/Packer - 5.jpg" alt="stringer-5"></a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 portfolio-item">
-                <div>
-                    <a href="#" data-lightbox="packer-gallery"><img class="card-img-top" src="css/images/residential/Packer/Packer - 6.jpg" alt="stringer-5"></a>
-                </div>
-            </div>
+        <!-- Contact Details Column -->
+        <div class="col-lg-4">
+            <h3 class="text-color">Contact Details</h3>
+            <p class="text-color">
+                9005 N. Girdle Rd,
+                <br>Middlefield, OH 44062
+                <br>
+            </p>
+            <p class="text-color">
+                <abbr title="Phone">P</abbr>: (440) 693-4414
+            </p>
+            <p class="text-color">
+                <abbr title="Email">E</abbr>:
+                <a class="text-color" href="mailto:name@example.com">name@example.com
+                </a>
+            </p>
+            <p class="text-color">
+                <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM
+            </p>
         </div>
+
+        <!-- /.row -->
+
+        <!-- Contact Form -->
+        <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+        <div class="row">
+            <div class="col-lg-8 mb-4">
+                <h3 class="text-color">Send us a Message</h3>
+                <form name="sentMessage" id="contactForm" novalidate>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label class="text-color">Full Name:</label>
+                            <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                            <p class="help-block"></p>
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label class="text-color">Phone Number:</label>
+                            <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label class="text-color">Email Address:</label>
+                            <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label class="text-color">Message:</label>
+                            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                        </div>
+                    </div>
+                    <div id="success"></div>
+                    <!-- For success/fail messages -->
+                    <button type="submit" class="btn btn-primary" id="sendMessageButton" style="background-color: hsla(60, 0%, 60%, 1); border-color: black;">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+        <!-- /.row -->
+
     </div>
     <!-- /.container -->
+
 
     <br>
     <br>
@@ -137,27 +160,7 @@
         </div>
         <!-- /.container -->
     </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="js/lightbox.min.js"></script>
-
 </body>
-
-</html>
-<div class="container">
-    <div style="float: right">
-        <a class="social-media" href="https://www.instagram.com/woodworks_design/" target="_blank"><img src="css/images/instagram.png" alt="instagram"></a>
-        <a class="social-media" href="https://www.facebook.com/woodworksdesign1990/" target="_blank"><img id="facebook-icon" src="css/images/facebook-logo-remix.png" alt="facebook"></a>
-        <a class="social-media" href="https://www.houzz.com/pro/woodworksdesign/woodworks-design-inc" target="_blank"><img src="css/images/houzz.png" alt="houzz"></a>
-    </div>
-    <div class="text-color">
-        <p class="m-0 ">Copyright &copy; Woodworks-Design</p>
-    </div>
-</div>
-<!-- /.container -->
-</footer>
 
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
