@@ -2,6 +2,7 @@ body {
     padding-top: 56px;
     background-color: hsla(60, 4%, 18%, 1);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
 }
 
 a {
@@ -14,6 +15,7 @@ a {
 
 .nav-col {
     background-color: hsla(60, 3%, 22%, 1);
+    font-size: 125%;
 }
 
 .carousel-item {
